@@ -1,3 +1,135 @@
-/* 
-    General Styles
-*/
+/* Importar fuente Star Wars */
+@import url('https://fonts.cdnfonts.com/css/star-jedi');
+
+/* General */
+body {
+    background-color: #000;
+    background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+    background-repeat: repeat;
+    color: #ffe81f;
+    font-family: 'Star Jedi', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Títulos */
+.titulo-1 {
+    border-bottom: 2px solid #ffe81f;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #ffe81f;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #fff;
+}
+
+/* Navegación */
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.9);
+    border-bottom: 2px solid #ffe81f;
+}
+
+.titulo-nav {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #ffe81f;
+}
+
+/* Botón */
+.boton {
+    border-radius: 10px;
+    width: 12rem;
+    border: 2px solid #ffe81f;
+    background: transparent;
+    color: #ffe81f;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.boton:hover {
+    background: #ffe81f;
+    color: black;
+    box-shadow: 0 0 10px #ffe81f;
+}
+
+/* Cartas */
+.card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 2px solid #ffe81f;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(255, 232, 31, 0.3);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(255, 232, 31, 0.7);
+}
+
+/* Imagen de info */
+.img-info {
+    height: 25rem;
+    border-radius: 10px;
+    border: 2px solid #ffe81f;
+    box-shadow: 0 0 10px rgba(255, 232, 31, 0.5);
+}
+
+/* Texto informativo */
+.titulo-info {
+    color: #ffe81f;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+/* Íconos */
+i {
+    font-size: 2rem;
+    color: #ffe81f;
+}
+
+i:hover {
+    color: white;
+}
+
+/* Lista favoritos */
+.lista-fav {
+    width: 15rem;
+}
+
+.btn-starwars {
+    background-color: transparent;
+    border: 2px solid #ffe81f;
+    color: #ffe81f;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 0 0 5px rgba(255, 232, 31, 0.5);
+}
+
+.btn-starwars:hover {
+    background-color: #ffe81f;
+    color: black;
+    box-shadow: 0 0 15px rgba(255, 232, 31, 1);
+}
