@@ -17,7 +17,7 @@ export const Personajes = ({ }) => {
 					{personajes.map((element) => {
 
 						return (
-							<CartaDatos imagen={element.uid} direccion="infoExtraP"
+							<CartaDatos imagen={element.uid} direccion="infoPersonaje"
 								nombre={element.name} fuente="characters" />
 						);
 					})

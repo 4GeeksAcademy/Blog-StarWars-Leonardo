@@ -17,7 +17,7 @@ export const Especies = ({ }) => {
 					{especies.map((element) => {
 
 						return (
-							<CartaDatos imagen={element.uid} direccion="infoExtraE"
+							<CartaDatos imagen={element.uid} direccion="infoEspecie"
 								nombre={element.name} fuente="species" />
 						);
 					})

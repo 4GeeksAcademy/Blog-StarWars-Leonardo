@@ -17,7 +17,7 @@ export const Vehiculos = ({ }) => {
 					{vehiculos.map((element) => {
 
 						return (
-							<CartaDatos imagen={element.uid} direccion="infoExtraV"
+							<CartaDatos imagen={element.uid} direccion="infoVehiculo"
 								nombre={element.name} fuente="vehicles" />
 						);
 					})

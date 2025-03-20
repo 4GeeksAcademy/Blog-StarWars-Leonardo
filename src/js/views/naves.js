@@ -17,7 +17,7 @@ export const Naves = ({ }) => {
 					{naves.map((element) => {
 
 						return (
-							<CartaDatos imagen={element.uid} direccion="infoExtraN"
+							<CartaDatos imagen={element.uid} direccion="infoNave"
 								nombre={element.name} fuente="starships" />
 						);
 					})

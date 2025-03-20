@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { CartaIndividual } from "../component/cartaIndividual";
 
-export const InfoExtraE = () => {
+export const InfoEspecie = () => {
     const params = useParams();
     const [info, setInfo] = useState("");
     useEffect(() => {

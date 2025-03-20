@@ -133,3 +133,19 @@ i:hover {
     color: black;
     box-shadow: 0 0 15px rgba(255, 232, 31, 1);
 }
+
+.titulo-nav {
+    font-family: 'Star Jedi', sans-serif;
+    font-size: 3rem;
+    color: #ffe81f;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 
+        -3px -3px 0 #000, 
+        3px -3px 0 #000, 
+        -3px 3px 0 #000, 
+        3px 3px 0 #000,
+        0 0 10px rgba(255, 232, 31, 0.8),
+        0 0 20px rgba(255, 232, 31, 0.6);
+    letter-spacing: 4px;
+}

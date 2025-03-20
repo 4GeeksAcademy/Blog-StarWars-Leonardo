@@ -17,7 +17,7 @@ export const Planetas = ({ }) => {
 					{planetas.map((element) => {
 
 						return (
-							<CartaDatos imagen={element.uid} direccion="infoExtraPl"
+							<CartaDatos imagen={element.uid} direccion="infoPlaneta"
 								nombre={element.name} fuente="planets" />
 						);
 					})

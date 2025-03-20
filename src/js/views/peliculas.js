@@ -17,7 +17,7 @@ export const Pelis = ({ }) => {
 					{pelis.map((element) => {
 
 						return (
-							<CartaDatos imagen={element.uid} direccion="infoExtraPe"
+							<CartaDatos imagen={element.uid} direccion="infoPelicula"
 								nombre={element.properties.title} fuente="films" />
 						);
 					})

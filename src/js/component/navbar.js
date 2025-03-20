@@ -1,6 +1,8 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
+import "../../styles/index.css";
+
 
 
 export const Navbar = () => {
@@ -13,7 +15,7 @@ export const Navbar = () => {
 		<nav className="d-flex navbar fondo-nav navbar-light pt-0">
 			<Link to="/">
 				<div className="logo">
-					<h1 className="titulo-nav">STAR WARS</h1>
+					<h1 className="titulo-nav ">STAR WARS</h1>
 				</div>
 			</Link>
 			<div className="justify-content-end">
